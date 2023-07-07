@@ -1,0 +1,341 @@
+:root {
+  --fs-font: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100vw;
+  height: 33vh;
+}
+
+.logoHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 23vh;
+}
+
+.logoHeader img {
+  width: 250px;
+  height: 150px;
+}
+.nav {
+  width: 100vw;
+  height: 6.5rem;
+  background-color: #778a35;
+  top: 0%;
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  height: 4rem;
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  align-items: center;
+}
+
+.navList li {
+  width: 10rem;
+  color: black;
+  height: 2rem;
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+  list-style: none;
+  font-family: var(--fs-font);
+}
+
+.navList a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+#shoppingCartImage {
+  width: 32px;
+  height: 32px;
+  padding-right: 10rem;
+}
+
+main {
+  width: 100vw;
+  height: 70vh;
+}
+.divForLandingPageImage {
+  height: 70vh;
+  width: 100vw;
+}
+
+.landingpageImg {
+  width: 100vw;
+  height: 70vh;
+}
+
+.landingpageHeroText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 50vw;
+  height: 50vh;
+  position: absolute;
+  top: 66vh;
+  left: 26vw;
+}
+
+.landingpageHeroText h1 {
+  color: white;
+  font-size: 5rem;
+
+  font-family: var(--fs-font);
+}
+
+.landingpageHeroText p {
+  color: white;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  font-family: var(--fs-font);
+}
+
+.landingpageInformationDiv {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+}
+
+.landingpageInformationDiv_one {
+  width: 50vw;
+  height: 70vh;
+  background-color: #778a35;
+  font-family: var(--fs-font);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingpageInformationDiv_two {
+  width: 50vw;
+  height: 70vh;
+}
+.landingpageInformationDiv_two img {
+  width: 100%;
+  height: 100%;
+}
+
+.landingpageInformationDivTwo {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+}
+
+.landingpageInformationDivTwo_two {
+  width: 50vw;
+  height: 70vh;
+  background-color: #778a35;
+  font-family: var(--fs-font);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landingpageInformationDivTwo_one {
+  width: 50vw;
+  height: 70vh;
+}
+.landingpageInformationDivTwo_one img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: #4f5638;
+}
+
+.footer_list {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer_box img {
+  width: 30px;
+}
+
+.footer_box:nth-child(2) {
+  margin-left: 65px;
+}
+
+.footer_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer_box h3 {
+  color: rgb(118, 141, 124);
+  font-family: var(--fs-font);
+}
+
+/* Store website */
+
+#plant-container {
+  width: 100%;
+  height: 85rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.smalldivForPlantContainer {
+  width: 30rem;
+  height: 32rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nameForProduct {
+  color: rgb(118, 141, 124);
+  font-family: var(--fs-font);
+}
+
+.priceForProduct {
+  color: rgb(132, 135, 133);
+  font-family: var(--fs-font);
+}
+
+.showImage {
+  width: 400px;
+  height: 400px;
+}
+
+.leftInStorageText {
+  color: rgb(38, 81, 49);
+  font-family: var(--fs-font);
+}
+
+.addToCartButton {
+  font-family: var(--fs-font);
+  background-color: rgb(118, 141, 124);
+  display: flex;
+  align-self: baseline;
+  border: none;
+  color: white;
+
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.storeShopInformationDiv {
+  width: 100%;
+  height: 20rem;
+  background-color: #778a35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.storeShopInformationDiv p {
+  width: 42rem;
+  font-size: 20px;
+  color: rgb(177, 215, 186);
+  font-family: var(--fs-font);
+}
+
+#cart-count {
+  font-family: var(--fs-font);
+  text-decoration: none;
+  list-style: none;
+  color: rgb(193, 202, 195);
+}
+
+/* Checout */
+
+.checkoutItemDIv {
+  background-color: #48531d;
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#checkoutContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 50vw;
+  height: 50vh;
+}
+
+.totalElement {
+  font-family: var(--fs-font);
+  color: rgb(193, 202, 195);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.divforContainer {
+  width: 30vh;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+#clearCartButton,
+#purchase-btn,
+.backtoshopBtn {
+  font-family: var(--fs-font);
+  background-color: rgb(118, 141, 124);
+  display: flex;
+  align-self: baseline;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.backtoshopBtn a {
+  text-decoration: none;
+  color: white;
+}
+
+.checkoutBtnContainer {
+
+  width: 18vw;
+  height: 10vh;
+ padding: 10px;
+
+
+}
+/* Media queries */
