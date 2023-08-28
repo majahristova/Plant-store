@@ -12,6 +12,7 @@ a {
 
 body {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 header {
@@ -45,7 +46,7 @@ header {
   width: 100vw;
   display: flex;
   align-items: flex-start;
-  align-items: center;
+
 }
 
 .navList li {
@@ -68,7 +69,8 @@ header {
 #shoppingCartImage {
   width: 32px;
   height: 32px;
-  padding-right: 10rem;
+  padding-right: 8rem;
+  padding-bottom: 12px;
 }
 
 main {
@@ -202,7 +204,7 @@ footer {
 
 #plant-container {
   width: 100%;
-  height: 85rem;
+  height: 130rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -280,7 +282,7 @@ footer {
 .checkoutItemDIv {
   background-color: #48531d;
   width: 100vw;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -331,7 +333,9 @@ footer {
 }
 
 .checkoutBtnContainer {
-
+ display: flex;
+ gap: 20px;
+ justify-content: center;
   width: 18vw;
   height: 10vh;
  padding: 10px;
