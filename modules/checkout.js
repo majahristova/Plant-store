@@ -1,6 +1,10 @@
 import { getCartItems } from "./cart.js";
 import { baseUrl } from "../firebase.js";
 
+
+const totalamountContainer = document.querySelector('#totalPriceContainer')
+
+
 export function renderSingleCartItem(cartItem) {
   console.log(`renderOneCartItem`, cartItem);
   const div = document.querySelector("#checkoutContainer");
@@ -33,12 +37,13 @@ function renderCartItems() {
 
   const totalElement = document.createElement("h3");
   totalElement.innerText = `Total Price: ${totalPrice} kr`;
-  document.querySelector("#checkoutContainer").appendChild(totalElement);
+  totalamountContainer.append(totalElement)
+  // document.querySelector("#checkoutContainer").appendChild(totalElement);
   totalElement.classList.add("totalElement");
  
 
-const buttondiv = document.querySelector('.checkoutBtnContainer')
-buttondiv.append(totalElement)
+// const buttondiv = document.querySelector('.checkoutBtnContainer')
+// buttondiv.append(totalElement)
   const clearCartButton = document.getElementById('clearCartButton');
 
  

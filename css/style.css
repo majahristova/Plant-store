@@ -301,7 +301,11 @@ footer {
   font-family: var(--fs-font);
   color: rgb(193, 202, 195);
   text-align: center;
-  padding-top: 20px;
+
+}
+
+.totalPriceContainer{
+  background-color: aqua;
 }
 
 .divforContainer {
@@ -336,10 +340,14 @@ footer {
  display: flex;
  gap: 20px;
  justify-content: center;
-  width: 18vw;
   height: 10vh;
  padding: 10px;
 
 
 }
 /* Media queries */
+
+
+@media only screen and (max-width: 600px){
+  
+}
